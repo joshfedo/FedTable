@@ -1,0 +1,35 @@
+{
+  "name": "vue-fed-table",
+  "version": "1.0.1",
+  "description": "A searchable, sourtable, table in Vue js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshfedo/FedTable.git"
+  },
+  "keywords": [
+    "vuejs",
+    "table",
+    "html",
+    "search",
+    "sourt",
+    "searchable",
+    "sourtable",
+    "js",
+    "json"
+  ],
+  "author": "Joshua Fedoryszyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshfedo/FedTable/issues"
+  },
+  "homepage": "https://github.com/joshfedo/FedTable#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "papaparse": "^4.6.0",
+    "vue": "^2.5.17"
+  }
+}
