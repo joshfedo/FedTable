@@ -40,7 +40,6 @@
 
 <script>
     import axios from "axios"
-    import VueCsvDownloader from 'vue-csv-downloader'
     import Papa from "papaparse"
     export default {
         name: "FedTable",
