@@ -31,7 +31,7 @@ var app = new Vue({
 ### Options
 | Prop         | Type     | Description                                                       | Required? | Default Value | Example                                                |   |
 |--------------|----------|-------------------------------------------------------------------|-----------|---------------|--------------------------------------------------------|---|
-| dataUri      | String   | URI to json data                                                  | Yes       | null          | data-uri="https://jsonplaceholder.typicode.com/photos" |   |
+| data-uri      | String   | URI to json data                                                  | Yes       | null          | data-uri="https://jsonplaceholder.typicode.com/photos" |   |
 | downloadable | Boolean  | Addes a CSV download button                                       | No        | true          | downloadable="true"                                    |   |
 | file-name     | String   | Name of file that will be downloaded if downloable is set to true | No        | download.csv  | file-name="yourFile.csv"                                |   |
 | page-size     | Int      | How many records to show per page                                 | No        | 15            | page-size="10"                                          |   |
