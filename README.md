@@ -6,6 +6,9 @@
 ### usage
 ```
 //index.js
+import Vue from 'vue'
+import FedTable from 'vue-fed-table'
+
 var app = new Vue({
     el:"#app",
     components:{
