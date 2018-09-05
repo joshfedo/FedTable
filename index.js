@@ -1,5 +1,5 @@
 // Import vue component
-import FedTable from 'FedTable';
+import FedTable from './FedTable';
 
 // Declare install function executed by Vue.use()
 export function install(Vue) {
