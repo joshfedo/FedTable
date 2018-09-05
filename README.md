@@ -24,7 +24,7 @@ var app = new Vue({
 ```html
 #index.html
 <div id="app">
-    <fed-table data-uri="https://jsonplaceholder.typicode.com/photos"></fed-table>
+    <fed-table data-uri="https://jsonplaceholder.typicode.com/posts"></fed-table>
 </div>
 ```
 
