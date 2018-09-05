@@ -50,7 +50,7 @@
                 default: null
             }, 'downloadable': {
                 default: true
-            }, 'filename': {
+            }, 'fileName': {
                 default: 'download.csv'
             },
             'pageSize': {
@@ -108,13 +108,13 @@
                 var csvData = new Blob([data], {type: 'text/csv;charset=utf-8;'});
                 var csvURL = null;
                 if (navigator.msSaveBlob) {
-                    csvURL = navigator.msSaveBlob(csvData, this.filename);
+                    csvURL = navigator.msSaveBlob(csvData, this.fileName);
                 } else {
                     csvURL = window.URL.createObjectURL(csvData);
                 }
                 var tempLink = document.createElement('a');
                 tempLink.href = csvURL;
-                tempLink.setAttribute('download', this.filename);
+                tempLink.setAttribute('download', this.fileName);
                 tempLink.click();
             },
 
