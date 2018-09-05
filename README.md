@@ -1,9 +1,9 @@
-##FedTable
+## FedTable
 
-###Install 
+### Install 
 ```npm install vue-fed-table```
 
-###usage
+### usage
 ```
 //index.js
 var app = new Vue({
@@ -21,7 +21,7 @@ var app = new Vue({
 </div>
 ```
 
-###Options
+### Options
 | Prop         | Type     | Description                                                       | Required? | Default Value | Example                                                |   |
 |--------------|----------|-------------------------------------------------------------------|-----------|---------------|--------------------------------------------------------|---|
 | dataUri      | String   | URI to json data                                                  | Yes       | null          | data-uri="https://jsonplaceholder.typicode.com/photos" |   |
