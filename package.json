@@ -1,6 +1,6 @@
 {
   "name": "vue-fed-table",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A searchable, sourtable, table in Vue js",
   "main": "index.js",
   "scripts": {
