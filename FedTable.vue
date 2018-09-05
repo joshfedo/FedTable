@@ -170,6 +170,9 @@
 </script>
 
 <style scoped>
+	@import 'bulma.css';
+
+
 	#fed-table-wrapper {
 		padding: 15px;
 	}
