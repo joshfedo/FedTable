@@ -29,6 +29,7 @@
   "homepage": "https://github.com/joshfedo/FedTable#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "moment": "^2.22.2",
     "papaparse": "^4.6.0",
     "vue": "^2.5.17"
   }
